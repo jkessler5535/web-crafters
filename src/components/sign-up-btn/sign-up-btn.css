@@ -3,13 +3,15 @@ button {
   display: inline-block;
   cursor: pointer;
   margin: 0;
-  padding: 1em 1.5em;
+  padding: 0.9em 2.6em;
   border-radius: 4px;
 }
 
 .sign-up-btn {
-  background-color: #0055d4;
+  background-color: #146ef5;
   color: #fff;
 
-
+}
+.sign-up-btn:hover {
+  background-color: #0055d4;
 }

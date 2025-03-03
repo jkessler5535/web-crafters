@@ -2,9 +2,10 @@ header {
   background: none;
   align-items: center;
   display: flex;
+  
 }
 h3 {
-  font-size: 19px;
+  font-size: 18px;
   letter-spacing: 0.90px;
   color:whitesmoke;
   
@@ -12,7 +13,12 @@ h3 {
 nav{
   display: flex;
   justify-content: center;
+  
  
+}
+.nav-bar {
+  margin-top: 40px;
+
 }
 
 .nav-bar ul{
@@ -20,12 +26,7 @@ nav{
   
 }
 
-.nav-bar ul li{
-  margin: 20px 50px;
-  
- 
-  
-}
+
 .nav-bar a{
   color: white;
 
@@ -38,6 +39,7 @@ nav{
 
 .nav-bar ul li{
   position: relative;
+  margin-right: 60px;
 }
 
 .nav-bar ul li:not(:last-child)::after{
@@ -58,8 +60,21 @@ nav{
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+  margin: 0 60px;
+  align-items: center;
 
 }
+li:last-child {
+  transition: text-decoration 0.7s;
+}
+
+li:last-child:hover {
+  text-decoration: underline; 
+  text-decoration-color: #0055d4;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
 li a {
   text-decoration: none;
 }
