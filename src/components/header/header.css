@@ -1,10 +1,10 @@
-.header {
+header {
   background: none;
-  display: flex;
   align-items: center;
+  display: flex;
 }
 h3 {
-  font-size: 22px;
+  font-size: 19px;
   letter-spacing: 0.90px;
   color:whitesmoke;
   
@@ -17,14 +17,12 @@ nav{
 
 .nav-bar ul{
   display: flex;
-  margin: 20px 40px;
   
-  
-
 }
+
 .nav-bar ul li{
-  position: relative;
   margin: 20px 50px;
+  
  
   
 }
@@ -33,11 +31,16 @@ nav{
 
 }
 
-.nav-bar a:hover{
-  color: #0055d4;
+.nav-bar li:not(:last-child) a:hover {
+  color: #0055d4; 
+
 }
 
-.nav-bar ul li::after {
+.nav-bar ul li{
+  position: relative;
+}
+
+.nav-bar ul li:not(:last-child)::after{
   content: "";
   display: inline-block;
   width:0;
