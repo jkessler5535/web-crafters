@@ -1,18 +1,62 @@
 .header {
   background: none;
   display: flex;
+  align-items: center;
+}
+h3 {
+  font-size: 22px;
+  letter-spacing: 0.90px;
+  color:whitesmoke;
+  
+}
+nav{
+  display: flex;
+  justify-content: center;
+ 
 }
 
 .nav-bar ul{
   display: flex;
+  margin: 20px 40px;
+  
+  
+
+}
+.nav-bar ul li{
+  position: relative;
+  margin: 20px 50px;
+ 
+  
+}
+.nav-bar a{
+  color: white;
+
+}
+
+.nav-bar a:hover{
+  color: #0055d4;
+}
+
+.nav-bar ul li::after {
+  content: "";
+  display: inline-block;
+  width:0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent; 
+  border-top: 5px solid white;
+  margin-left: 5px; 
+  vertical-align: middle;
 
 }
 
 .nav-bar li {
   list-style: none;
-  margin: 0 20px;
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
 
+}
+li a {
+  text-decoration: none;
 }
