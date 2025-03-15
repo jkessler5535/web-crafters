@@ -1,13 +1,11 @@
 import React from "react";
 import "./header.css";
-import SignUpBtn from "../sign-up-btn/sign-up-btn.jsx";
-
-
+import HeaderLogo from "../../assets/header-logo"; 
 
 function Header() {
   return (
-    <header>
-      <nav className="nav-bar">
+      <header className="nav-bar">
+        <HeaderLogo/> 
         <h3>Web Crafters</h3>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -16,11 +14,8 @@ function Header() {
           <li><a href="#contact">Contact</a></li>
           <li><a href="#home">Log in</a></li>
         </ul>
-        <SignUpBtn />
-      </nav>
-    </header>
+      </header>
   );
 }
 
-export default Header;  
-
+export default Header;
