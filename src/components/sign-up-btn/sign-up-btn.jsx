@@ -2,7 +2,7 @@ import React from "react";
 import "./sign-up-btn.css";
 
 
-const Btn = ()=> {
+const SignUpBtn = ()=> {
   const handleClick = ()=> {
     alert('Sign up button clicked!');
   }
@@ -13,4 +13,4 @@ const Btn = ()=> {
   );
 }
 
-export default Btn;
+export default SignUpBtn;

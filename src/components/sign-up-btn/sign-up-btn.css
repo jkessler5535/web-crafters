@@ -2,14 +2,19 @@ button {
   all:unset;
   display: inline-block;
   cursor: pointer;
-  margin: 0;
-  padding: 0.9em 2.6em;
+  padding: 1em 1.9em;
   border-radius: 4px;
+ 
 }
 
 .sign-up-btn {
   background-color: #146ef5;
   color: #fff;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+
+
  
 
 }
