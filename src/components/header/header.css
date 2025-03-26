@@ -115,7 +115,7 @@ li a {
     top: 103%;
     left: 0;
     z-index: 999;
-    background: gray;
+    background-color: rgba(174, 162, 162,0.2);
     
 
   }
@@ -124,11 +124,13 @@ li a {
   
   }
   .nav-bar ul li{
-    padding: 0.25rem;
+    padding: 0.28rem;
+    text-decoration: none;
+    letter-spacing: 0.1em;
   }
   
   .nav-bar a:hover{
-    color: blue;
+    color:#0055d4;
     
   }
   
@@ -152,7 +154,14 @@ li a {
     display: none !important;
     
   }
+  .hamburger-menu{
+    display: flex;
+    margin-left: auto;
+  }
 }
+
+
+
 
 @media screen and (max-width: 480px) {
   .container{
