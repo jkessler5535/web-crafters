@@ -93,6 +93,18 @@ li a {
   
 }
 
+@media screen and (max-width: 1168px){
+  .nav-bar li {
+    font-size: 1.2rem;
+    margin: 0 2rem;
+ }
+ .nav-bar ul{
+   flex-wrap: nowrap;
+ }
+ button{
+  padding: 0.75rem;
+ }
+}
 
 
 @media screen and (max-width: 991px) {
