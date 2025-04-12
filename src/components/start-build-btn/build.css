@@ -1,0 +1,15 @@
+
+.build-btn {
+  background-color: #146ef5;
+  color: #fff;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+
+
+ 
+
+}
+.build-btn:hover {
+  background-color: #0055d4;
+}
