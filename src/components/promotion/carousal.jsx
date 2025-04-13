@@ -31,7 +31,7 @@ import img10 from '../../assets/carousal/img-10.svg';
     return (
       <div className="image-carousal">
         <div className="image-carousal-inner">
-          {[...images, ...images].map((image, index) => ( // Duplicate images for seamless scroll
+          {[...images, ...images].map((image, index) => ( 
             <img key={index} src={image.src} alt={image.alt} />
           ))}
         </div>

@@ -5,11 +5,11 @@
   white-space: nowrap;
   display: inline-block;
   text-align: center;
+  margin-bottom: 115px;
 
-
- 
 
 }
 .build-btn:hover {
   background-color: #0055d4;
+  
 }
