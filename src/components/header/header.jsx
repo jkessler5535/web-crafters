@@ -3,7 +3,7 @@ import "./header.css";
 
 
 //logos
-import HeaderLogo from "../../assets/header-logo"; 
+import HeaderLogo from "../../assets/header/header-logo"; 
 
 //import components
 import SignUpBtn from "../sign-up-btn/sign-up-btn";
