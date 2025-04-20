@@ -4,12 +4,13 @@ import "./about.css";
 
 
 //Imports
-import LottieAnimation from "../Lottie-Animation/lottie-comp";
+import CursorIcon from '../../assets/about-icons/cursor-icon.jsx';
 
 function About() {
     return (
         <div className="about-section">
             <div className="block 1">
+            <CursorIcon/>
               <h2>Design & Build</h2>
               <p>Take full creative control.
               Designers can dive into HTML, CSS, and JavaScript visually, while marketers build with reusable, brand-approved components—no code required.</p>

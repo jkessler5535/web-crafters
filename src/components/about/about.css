@@ -8,7 +8,7 @@
 }
 
 .block {
-  border-top: 1px solid white;
+  border-top: 1px solid rgba(120, 105, 105,0.4);
   width: 40%;
   padding-top: 30px;
   
@@ -28,6 +28,8 @@
   line-height: 1.6;
   margin-bottom: 0;
 }
+
+
 
 @media (max-width: 991px){
   .about-section{

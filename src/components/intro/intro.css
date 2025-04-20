@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   align-items: center;
-  padding: 50px 50px 190px;
+  padding: 160px 50px 190px;
   
 }
 
@@ -32,6 +32,7 @@
   .intro {
     flex-direction: column;
     gap: 50px;
+    padding-bottom: 0;
     
   
   }
