@@ -10,7 +10,7 @@
 .block {
   border-top: 1px solid rgba(120, 105, 105,0.4);
   width: 40%;
-  padding-top: 30px;
+  padding-top: 22px;
   
 }
 
@@ -18,7 +18,7 @@
   color: #fff;
   letter-spacing: .02em;
   font-size: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 
 }
 
@@ -27,6 +27,16 @@
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 0;
+}
+
+.cursor-icon,
+.rocket-icon,
+.opti-icon,
+.scale-icon {
+  display: inline-block;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  height: auto;
 }
 
 
