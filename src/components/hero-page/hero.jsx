@@ -1,10 +1,11 @@
 import React from 'react';
-import "./hero.css";
+import './hero.css';
+
 
 
 //Components
 import BuildBtn from '../start-build-btn/build-btn.jsx';
-import ImageCarousal from '../promotion/carousal.jsx';
+
 
 
 

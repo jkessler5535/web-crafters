@@ -1,0 +1,38 @@
+.about-section {
+  padding: 80px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+ 
+  
+}
+
+.block {
+  border-top: 1px solid white;
+  width: 40%;
+  padding-top: 30px;
+  
+}
+
+.block h2{
+  color: #fff;
+  letter-spacing: .02em;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.block p {
+  color: gray;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px){
+  .about-section{
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+}

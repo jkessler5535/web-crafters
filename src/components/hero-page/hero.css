@@ -3,10 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 40px;
-  gap: 40px;
-  position: relative;
-  top: 110px;
+  padding: 140px 50px 140px;
+  gap: 45px;
+  
+  
  
  }
  .hero h3{
