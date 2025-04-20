@@ -33,6 +33,21 @@
   .about-section{
     flex-direction: column;
     width: 100%;
-    padding: 0;
+  
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+  }
+  .block h2{
+   text-align: left;
+   width: 78%;
+  }
+  .block p{
+    width:78%;
+    
   }
 }
