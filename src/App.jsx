@@ -9,6 +9,7 @@ import Hero from "./components/hero-page/hero";
 import Intro from "./components/intro/intro";
 import About from "./components/about/about";
 import ImageCarousal from "./components/promotion/carousal";
+import CustomerReviews from "./components/customer-review/customerReviews";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <ImageCarousal/>
       <Intro/>
       <About/>
+      <CustomerReviews/>
     
     
     </div>

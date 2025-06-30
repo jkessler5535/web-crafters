@@ -52,8 +52,3 @@
   }
 }
 
-@media (max-width: 768px) {
-  .image-carousal {
-    display: none;
-  }
-}
