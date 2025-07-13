@@ -53,10 +53,13 @@
   text-decoration: none;
   color: #fff;
   letter-spacing: 0.85px;
+  display: inline-flex;
+  transform: 0.2s ease;
  }
 
  #contact:hover {
   color: gray;
+  transform: scale(1.05);
  }
 
 
