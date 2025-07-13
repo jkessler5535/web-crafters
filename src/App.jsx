@@ -10,21 +10,21 @@ import Intro from "./components/intro/intro";
 import About from "./components/about/about";
 import ImageCarousal from "./components/promotion/carousal";
 import Advertise from "./components/Advertise/advertise";
+import Tools from "./components/website-tools/tools";
 
 
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Header/>
       <Hero/>
       <ImageCarousal/>
       <Intro/>
       <About/>
       <Advertise/>
+      <Tools/>
       
-    
-    
     </div>
   )
 }

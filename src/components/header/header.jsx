@@ -18,7 +18,7 @@ const toggleMenu = () => {
 function Header() {
   return (
     <div>
-      <header>
+      <Header>
         <HeaderLogo/> 
         <h3>Web Crafters</h3>
         <button className="hamburger-menu" onClick={toggleMenu}>
@@ -33,7 +33,7 @@ function Header() {
           </ul>
         </nav>
         <SignUpBtn/>
-      </header>
+      </Header>
       <div className="header-divider"></div>
     </div>
   );
