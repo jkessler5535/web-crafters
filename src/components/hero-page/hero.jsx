@@ -8,7 +8,6 @@ import BuildBtn from '../start-build-btn/build-btn.jsx';
 
 
 
-
 function Hero() {
     return (
         <div className="hero">
