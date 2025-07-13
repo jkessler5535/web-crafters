@@ -1,5 +1,4 @@
 .about-section {
-  padding: 80px;
   display: flex;
   gap: 60px;
   align-items: center;
@@ -9,7 +8,8 @@
 .block {
   border-top: 1px solid rgba(120, 105, 105,0.4);
   width: 40%;
-  padding-top: 22px;
+  padding-top: 50px;
+
   
 }
 

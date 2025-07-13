@@ -1,9 +1,10 @@
 .intro {
   display: flex;
   align-items: center;
-  padding: 160px 90px 190px;
-   
+  margin-top: 120px;
+  padding: 110px;
 }
+
 
 .intro-left {
   flex: 1;
