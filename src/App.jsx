@@ -9,6 +9,7 @@ import Hero from "./components/hero-page/hero";
 import Intro from "./components/intro/intro";
 import About from "./components/about/about";
 import ImageCarousal from "./components/promotion/carousal";
+import Advertise from "./components/Advertise/advertise";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <ImageCarousal/>
       <Intro/>
       <About/>
+      <Advertise/>
       
     
     

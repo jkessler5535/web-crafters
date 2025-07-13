@@ -1,0 +1,28 @@
+.advertise-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.diamond-advertise {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, purple, blue);
+  animation: strobe 1s infinite;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  font-size: 24px;
+
+}
+
+@keyframes strobe {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
