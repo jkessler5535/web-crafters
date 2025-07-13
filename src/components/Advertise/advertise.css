@@ -1,7 +1,11 @@
 .advertise-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 50px;
+  
+ 
   
 }
 
@@ -11,18 +15,15 @@
   background: linear-gradient(45deg, purple, blue);
   animation: strobe 1s infinite;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 10px;
+  display: flex;
 }
 
-.text {
-  color: white;
-  font-size: 24px;
-
-}
 
 @keyframes strobe {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.5; }
 }
+
