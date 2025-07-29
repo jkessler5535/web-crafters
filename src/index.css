@@ -3,22 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
-  font-family:WF Visual Sans Text, Arial, sans-serif;
   font-weight: 400;
-  background-color:#080808;
+  background-color:black;
   
 }
-.about-section,
-.advertise-container,
-header,
-.hero,
-.intro {
-  max-width: 1500px;
-  min-width: 320px;
-  margin: 0 auto;
-  
-}
+.container {
+     max-width: 1500px;  
+      min-width: 320px;   
+      margin: 0 auto;      
+    
+  }
 
 
 @media (max-width: 991px){
